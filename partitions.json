@@ -1,0 +1,21 @@
+{
+    "partitions":   [
+        {
+            "label": "BOOT",
+            "filesystem_type":              "FAT",
+            "partition_size_nominal":       255,
+            "want_maximised":               false,
+            "uncompressed_tarball_size":    30
+            "sha512sum" :                   "d256974ee44683e9ad0829408b3d3b22e325d993e085336e6ba33a407a0eceae70b8072a080af2745639f81253435616606419c5a3400b2f915fc7a2580bb8bc"
+        },
+        {
+            "label": "ROOTFS",
+            "filesystem_type":              "ext4",
+            "partition_size_nominal":       1919,
+            "want_maximised":               true,
+            "mkfs_options":                 "-c",
+            "uncompressed_tarball_size":    1800,
+            "sha512sum" :                   "4268ac94c34f1e214641808b455d52b4f65daf3b901f7496622e4a01344138e8c0a8e9a37f991de9f499a01a4f548b64de6ce579b3392e30921a9adfca4e9dfb"
+        }
+    ]
+}
